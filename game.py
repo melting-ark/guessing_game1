@@ -1,33 +1,5 @@
 ## Number guessing game
 
-# version 1
-# 1. user can start the game
-# 2. play for one guess (guessing correct number is win and wrong answer is loss) (complete game)
-# 3. should not terminate, should keep it continuing
-
-# import random
-
-# while True:
-#     s = input("type 'start' to play the game: ").lower()
-#     if s=="start":
-#         print("game started")
-#         NUM_SET  = random.randint(0,9)
-#         c = 0
-#         while c<1: 
-#             try:
-#                 guess = int(input("guess a number: "))
-#                 if NUM_SET == guess:
-#                     print("win")
-#                     c = 1
-#                 else:
-#                     print("lose")
-#                     c = 1
-#             except:
-#                 print("please give only numbers")   
-#     else:
-#         break
-
-
 # version 1.5
 # only 7 guess should be there for one game
 
